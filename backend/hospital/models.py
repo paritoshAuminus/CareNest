@@ -12,7 +12,7 @@ class Hospital(models.Model):
 
 class HospitalMembership(models.Model):
     roles = [
-        ('CHIEF', 'Chief of medical staff'),
+        ('CHIEF', 'Chief of medical staff'), 
         ('DOCTOR', 'Doctor'),
         ('RECEPTIONIST', 'Receptionist'),
         ('PATIENT', 'Patient'),
