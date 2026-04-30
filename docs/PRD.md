@@ -6,7 +6,7 @@ Multi-Tenant Hospital Operations Management Platform
 
 ## 1. Product Vision
 
-MediFlow is a Software-as-a-Service (SaaS) platform designed to help hospitals digitize and streamline operational workflows, patient management, staff coordination, scheduling, reporting, and administrative oversight through a centralized multi-tenant system.
+CareNest is a Software-as-a-Service (SaaS) platform designed to help hospitals digitize and streamline operational workflows, patient management, staff coordination, scheduling, reporting, and administrative oversight through a centralized multi-tenant system.
 
 The system will support multiple hospitals under a single platform, where each hospital functions as an independent tenant with its own departments, users, data, and workflows.
 

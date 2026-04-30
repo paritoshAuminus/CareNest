@@ -1,7 +1,7 @@
 # Changelog
 
 ## 2026-04-29
-Started project planning.
+This is day 1, most of the stuff is done by ChatGPT, still figuring things out.
 
 Completed:
 - Defined SaaS concept
@@ -20,13 +20,14 @@ Blockers:
 ---
 
 ## 2026-04-30
+This is day 2, will try to create hospital and department models and see where this goes.
 
 Completed:
-- Added Hospital model
-- Added Department model
+- Added created_at & updated_at in hospital & hospital membership model
+- Created department model
 
 Next:
-- User roles design
+- Add constraints with meta class on department model
 
-Notes:
-Need revisit doctor-department relationship
+Blockers:
+- Read more on meta class

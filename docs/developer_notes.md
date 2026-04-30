@@ -94,3 +94,4 @@ Avoid premature microservices thinking.
 - Audit logs
 - Celery for notifications
 - Slot generation algorithm
+- Something like factory boy to load test the server
