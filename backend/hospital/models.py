@@ -6,6 +6,8 @@ from accounts.models import User
 class Hospital(models.Model):
     title = models.CharField(max_length=200)
     address = models.CharField(max_length=700)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True, auto_now_add=False)
 
     def __str__(self):
         return self.title
@@ -21,6 +23,8 @@ class HospitalMembership(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     hospital = models.ForeignKey(Hospital, on_delete=models.CASCADE)
     role = models.CharField(max_length=12, choices=roles)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True, auto_now_add=False)
 
     def __str__(self):
         return f'{self.user.first_name} {self.user.last_name} ({self.role})'
